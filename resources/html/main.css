@@ -1,0 +1,34 @@
+/* Основной стиль текста, используемый в Telegram */
+body {
+    padding: 5px;
+    font-family: 'Roboto', 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+    background-color: aqua;
+}
+
+/* Дополнительные стили для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333;
+}
+
+/* Стили для ссылок */
+a {
+    color: #1a73e8; /* Цвет ссылки, похожий на используемый в Telegram */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Для центрирования изображений */
+}

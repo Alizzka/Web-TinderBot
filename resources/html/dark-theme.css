@@ -1,0 +1,47 @@
+/* dark-theme.css */
+
+/* Основной стиль для темной темы */
+body {
+    background-color: #1e1e1e; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+    font-family: 'Roboto', 'San Francisco', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 5px;
+}
+
+/* Стили для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    color: #cccccc; /* Светло-серый цвет текста */
+}
+
+/* Стили для ссылок */
+a {
+    color: #1a73e8; /* Синий цвет ссылки */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Центрирование изображений */
+}
+
+/* Дополнительные стили для кнопок */
+button {
+    background-color: #1a73e8; /* Синий фон */
+    color: #ffffff; /* Белый текст */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1558b0; /* Темно-синий фон при наведении */
+}
